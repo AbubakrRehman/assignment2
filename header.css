@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.header-img {
+    background: url("fire.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    /* margin-bottom: 20px; */
+}
+
+
+form{
+    position: absolute;
+    right: 15px;
+    bottom: 30px;
+}
+
+form input {
+    display: inline-block;
+    font-size: medium;
+    border: 2px solid black;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+form input:focus {
+    border: none !important;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+form input::placeholder {
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0); */
+
+}
+
+form button {
+    font-size: medium;
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+}

@@ -1,0 +1,4 @@
+Experience in understanding client business requirements and developing product accordingly
+Extensive programming skills in Swift
+Proficient in MVVM, Google Map, Solid Principle and, Multithreading 
+Well versed with versioning systems like Git, Bitbucket, Source tree, and tools such as Xcode
